@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+    padding: 40px;
+    background: url(bg-pattern-bottom-desktop.svg);
+    background: url(bg-pattern-top-desktop.svg);
+    height: 500px;
+}
+
+.users{
+color:hsl(300,43%,22%);
+font-family: League Spartan;
+font-weight: 750;
+font-size: 40px;
+margin-top: 10px;
+width: 300px;
+margin-bottom: 15px;
+}
+.div1{
+    margin-top: 20px;
+    margin-left: 100px;
+    display: inline-block;
+    width:350px;
+    height: 50px;
+}
+.div2{
+    width: 375px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.p1{
+    color: rgb(112, 112, 112);
+    font-family:League Spartan ;
+    line-height: 1.2;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.star1 , .star2 , .star3{
+    background-color: #f0eaea;
+    padding: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    width: 350px;
+    margin-top: 15px;
+    
+}
+.cases{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-left: 200px;
+    
+}
+.p2{
+    margin-left: 15px;
+    font-family:League Spartan ;
+    color:hsl(300,43%,22%);
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.star{
+    color: rgb(250, 168, 4);
+    letter-spacing: 5px;
+    margin-right: 20px;
+    font-weight: 800px;
+}
+.satr1{
+    width:70px
+}
+.star2{
+    margin-left: 40px;
+}
+.star3{
+    margin-left: 80px;
+}
+.description{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.div11{
+    background-color: #4f224c;
+    color: #fff;
+    padding-top: 30px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    
+    
+}
+#div12{
+margin-top: 15px;
+padding-bottom: 30px;
+}
+#div13{
+    margin-top: 30px;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+.title{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-family:League Spartan ;
+    padding-left: 0;
+    
+}
+.p12{
+    font-size: 0.9rem;
+    color: #f83fcaea;
+    font-family:League Spartan ;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    
+}
+#div12 p{
+width: 250px;
+}
+.p11{
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-family:League Spartan ;
+    width:250px;
+    
+}
+.title , .p12{
+    display: inline-block;
+}
+.ifo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info{
+    margin-left: 20px;
+    display: inline-block;
+    width: 200px;
+    
+    
+}
+.im{
+    display: inline-block;
+    width: 50px;
+}
+.info .p{
+    margin-top: 0;
+}
+.info .h{
+    margin-bottom: 0;
+}
+#div12 .p11{
+    font-size: 15px;
+}
+
+/* Mobile Styles*/
+@media (max-width: 284px) {
+    body {
+        padding: 20px;
+        background-size: cover;
+        height: auto;
+    }
+    
+    .allitems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .users {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .div1 {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .p1 {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .cases {
+        flex-direction: column;
+        align-items: center;
+        margin: 150px 0;
+        margin-bottom: 20px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .star1, .star2, .star3 {
+        width: 90%;
+        margin: 10px 0;
+        margin-right: 50px;
+        margin-left: 20px;
+        align-items: center;
+        padding-right: 40px;
+        padding-left: 50px;
+    }
+    
+    .p2 {
+        font-size: 10px;
+        text-align: center;
+    }
+    .star{
+        display: block;
+    }
+    .description {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+        gap: 15px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    
+    .div11 {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title {
+        font-size: 0.8rem;
+    }
+    
+    .p12 {
+        font-size: 0.8rem;
+    }
+    
+    .p11 {
+        font-size: 0.9rem;
+        width: 100%;
+        line-height: 1.4;
+    }
+
+    .ifo {
+        flex-direction: row;
+        align-items: flex-start;
+        
+    }
+
+    .info {
+        width: auto;
+        margin-left: 10px;
+    }
+} 
